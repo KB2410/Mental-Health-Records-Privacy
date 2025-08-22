@@ -1,0 +1,16 @@
+[package]
+name = "Mental-Health-Records-Privacy"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x76464ceee844df1a3ad30e4b6439e1ce20190fea2da90d99f7b548c684f1037c"
+SendMessage="0x76464ceee844df1a3ad30e4b6439e1ce20190fea2da90d99f7b548c684f1037c"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
